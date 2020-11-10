@@ -9,10 +9,10 @@ class articulo {
     }
 }
 
-let gtr1 = new articulo ("Firebird", "2020", "Tobacco burst", "1000", "/assets/firebird.png", "gtr1");
-let gtr2 = new articulo ("Les Paul Standard 60s", "2017", "Tobacco burst", "1500", "/assets/les_paul.png", "gtr2");
-let gtr3 = new articulo ("SG", "2019", "Cherry", "850", "/assets/sg.png", "gtr3");
-let gtr4 = new articulo ("Hummingbird", "2012", "Cherry burst", "1250", "/assets/hummingbird.png", "gtr4");
+let gtr1 = new articulo ("Firebird", "2020", "Tobacco burst", "1000", "assets/firebird.png", "gtr1");
+let gtr2 = new articulo ("Les Paul Standard 60s", "2017", "Tobacco burst", "1500", "assets/les_paul.png", "gtr2");
+let gtr3 = new articulo ("SG", "2019", "Cherry", "850", "assets/sg.png", "gtr3");
+let gtr4 = new articulo ("Hummingbird", "2012", "Cherry burst", "1250", "assets/hummingbird.png", "gtr4");
 
 let array = [gtr1, gtr2, gtr3, gtr4];
 let carrito = [];
